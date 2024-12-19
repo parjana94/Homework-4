@@ -37,6 +37,5 @@ public class SignUpTest {
         genderMale.click();
         pronoun.shouldBe(Condition.hidden);
         customGender.shouldBe(Condition.hidden);
-        sleep(5000);
     }
 }
